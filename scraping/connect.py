@@ -38,7 +38,7 @@ def connect_database(db, args):
 def to_dataframe(data):
     return pd.DataFrame.from_dict(data)
 
-if __name__ == "__main__":
+def execute_srcaping(args):
     start_time = time()
     func = connect_database
     sql_cmd = args.sql
@@ -46,5 +46,11 @@ if __name__ == "__main__":
         now = datetime.now().strftime("%m%d%Y%H%M%S")
         cursor.execute(sql_cmd)
         result = to_dataframe(cursor.fetchall()).drop_duplicates()
-        result.to_pickle('./scrap_file/{0}_{1}.pkl'.format(now, len(result)))
+        # result.to_pickle('./scrap_file/{0}_{1}.pkl'.format(now, len(result)))
+        print("The execution time is {} sec".format(time()-start_time))
         func('forum_data', args).close()
+
+    return result
+
+
+
