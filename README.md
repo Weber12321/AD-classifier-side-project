@@ -385,9 +385,6 @@ Type the content which you want to classify and press `ENTER` if you want to add
 
 
 
-<!-- LICENSE -->
-## License
-
 <!-- CONTACT -->
 ## Contact
 
@@ -399,8 +396,3 @@ eLand Information
 
 Mail: ychuang@eland.com.tw
 
-<!-- ACKNOWLEDGEMENTS -->
-## Acknowledgements
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
