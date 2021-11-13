@@ -1,0 +1,14 @@
+click
+fastapi
+jinja2
+openpyxl
+pandas
+pip-tools
+PyMySQL
+python-multipart
+sentencepiece
+sklearn
+torch
+tqdm
+transformers
+uvicorn[standard]
