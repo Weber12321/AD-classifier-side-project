@@ -31,6 +31,8 @@
 
 <!-- ABOUT THE PROJECT -->
 
+[Project sildes](AD_classifier.pptx)
+
 ## About The Project
 
 <img src="pics/api5.png" style="zoom:75%;" />
