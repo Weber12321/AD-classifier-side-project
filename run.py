@@ -29,6 +29,7 @@ parser.add_argument('--loss_func', default= nn.CrossEntropyLoss())
 
 args = parser.parse_args()
 
+
 def model_run(args):
     hf_logging.set_verbosity_error()
     logging.basicConfig(filename='./model/run.log',

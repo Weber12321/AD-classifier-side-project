@@ -125,6 +125,7 @@ dmypy.json
 
 # scrap file
 /scrap_file/*.csv
+/scrap_file/*.pkl
 /scrap_file/*.xlsx
 
 # model generate file
