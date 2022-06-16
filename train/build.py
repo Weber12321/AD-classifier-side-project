@@ -52,6 +52,7 @@ class ADDataset(Dataset):
           'targets': torch.tensor(target, dtype=torch.long)
         }
 
+
 def create_data_loader(df, tokenizer, max_len, batch_size):
     ds = ADDataset(
         reviews=df.text.to_numpy(),
